@@ -3,39 +3,27 @@ version: '3'
 services:
   dpng-1:
     image: papadoxie/cca03m01:latest
-    hostname: dpng1.service
-    environment:
-      - HOSTNAME=dpng1.service
     ports:
       - 1337:1337
     
   dpng-2:
     image: papadoxie/cca03m01:latest
-    hostname: dpng2.service
-    environment:
-      - HOSTNAME=dpng2.service
     ports:
       - 1338:1337
 
   dpng-3:
     image: papadoxie/cca03m01:latest
-    hostname: dpng3.service
-    environment:
-      - HOSTNAME=dpng3.service
     ports:
       - 1339:1337
 
   master:
     image: papadoxie/cca03m03:latest
-    hostname: master.service
-    ports:
-      - 1336:1337
-    environment:
-      - MASTER=true
-      - SLAVE_1=dpng1.service
-      - SLAVE_2=dpng2.service
-      - SLAVE_3=dpng3.service
+    links:
+      - dpng-1
+      - dpng-2
+      - dpng-3
     depends_on:
       - dpng-1
       - dpng-2
       - dpng-3
+    restart: on-failure

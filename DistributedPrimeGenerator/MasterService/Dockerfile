@@ -4,7 +4,6 @@ RUN apt update
 RUN apt install gcc build-essential fakeroot python3-full python3-pip -y
 
 FROM base as final
-EXPOSE 1337
 WORKDIR /app
 COPY ../ .
 

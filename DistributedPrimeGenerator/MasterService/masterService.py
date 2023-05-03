@@ -5,7 +5,7 @@ import time
 import datetime
 
 HOSTS = ['dpng-1', 'dpng-2', 'dpng-3']
-PORTS = [1337, 1338, 1339]
+PORTS = [1337, 1337, 1337]
 
 MAX_PRIME = 10 ** 12
 
@@ -24,7 +24,7 @@ def main():
     end = MAX_PRIME // len(services)
     
     for service in services:
-        msg = f'1 {start} {end}\n'
+        msg = f'1 {start} {end}'
         print(service.getpeername())
         print(msg, end='')
         service.sendall(msg.encode('utf-8'))
@@ -36,7 +36,7 @@ def main():
     # Log CPU and memory usage every minute
         with open ('log.csv', 'a') as logfile:
             for service in services[1:]:
-                service.sendall('2 1\n'.encode('utf-8'))
+                service.sendall('2 1'.encode('utf-8'))
                 data = service.recv(1024)
                 if data:
                     data = data.decode('utf-8').strip().split(', ')
@@ -52,7 +52,7 @@ def main():
         # After 2 minutes, get the list of primes from all services
         prime_list = []
         for service in services:
-            service.sendall('3\n'.encode('utf-8'))
+            service.sendall('3'.encode('utf-8'))
             msg = ''
             while True:
                 data = service.recv(1024)
