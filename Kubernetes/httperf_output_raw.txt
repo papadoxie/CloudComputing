@@ -1,0 +1,170 @@
+httperf --verbose --hog --timeout=60 --client=0/1 --server=127.0.0.1 --port=3000 --uri=/ --rate=10 --send-buffer=4096 --recv-buffer=16384 --ssl-protocol=auto --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1048576
+reply-rate = 10.0
+session-rate = 10.0
+reply-rate = 10.0
+session-rate = 10.0
+reply-rate = 10.0
+session-rate = 10.0
+reply-rate = 10.0
+session-rate = 10.0
+reply-rate = 10.0
+session-rate = 10.0
+httperf --verbose --hog --timeout=60 --client=0/1 --server=127.0.0.1 --port=3000 --uri=/ --rate=15 --send-buffer=4096 --recv-buffer=16384 --ssl-protocol=auto --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1048576
+reply-rate = 15.0
+session-rate = 15.0
+reply-rate = 15.0
+session-rate = 15.0
+reply-rate = 15.0
+session-rate = 15.0
+reply-rate = 15.0
+session-rate = 15.0
+reply-rate = 15.0
+session-rate = 15.0
+httperf --verbose --hog --timeout=60 --client=0/1 --server=127.0.0.1 --port=3000 --uri=/ --rate=20 --send-buffer=4096 --recv-buffer=16384 --ssl-protocol=auto --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1048576
+reply-rate = 20.0
+session-rate = 20.0
+reply-rate = 20.0
+session-rate = 20.0
+reply-rate = 20.0
+session-rate = 20.0
+reply-rate = 20.0
+session-rate = 20.0
+reply-rate = 20.0
+session-rate = 20.0
+reply-rate = 20.0
+session-rate = 20.0
+httperf --verbose --hog --timeout=60 --client=0/1 --server=127.0.0.1 --port=3000 --uri=/ --rate=25 --send-buffer=4096 --recv-buffer=16384 --ssl-protocol=auto --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1048576
+reply-rate = 25.0
+session-rate = 25.0
+reply-rate = 25.0
+session-rate = 25.0
+reply-rate = 25.0
+session-rate = 25.0
+reply-rate = 25.0
+session-rate = 25.0
+reply-rate = 25.0
+session-rate = 25.0
+httperf --verbose --hog --timeout=60 --client=0/1 --server=127.0.0.1 --port=3000 --uri=/ --rate=30 --send-buffer=4096 --recv-buffer=16384 --ssl-protocol=auto --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1048576
+reply-rate = 29.8
+session-rate = 29.8
+reply-rate = 30.2
+session-rate = 30.2
+reply-rate = 30.0
+session-rate = 30.0
+reply-rate = 30.0
+session-rate = 30.0
+reply-rate = 30.0
+session-rate = 30.0
+httperf --verbose --hog --timeout=60 --client=0/1 --server=127.0.0.1 --port=3000 --uri=/ --rate=35 --send-buffer=4096 --recv-buffer=16384 --ssl-protocol=auto --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1048576
+reply-rate = 34.8
+session-rate = 34.8
+reply-rate = 35.0
+session-rate = 35.0
+reply-rate = 35.0
+session-rate = 35.0
+reply-rate = 35.0
+session-rate = 35.0
+reply-rate = 35.2
+session-rate = 35.2
+httperf --verbose --hog --timeout=60 --client=0/1 --server=127.0.0.1 --port=3000 --uri=/ --rate=40 --send-buffer=4096 --recv-buffer=16384 --ssl-protocol=auto --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1048576
+reply-rate = 39.8
+session-rate = 39.8
+reply-rate = 39.2
+session-rate = 39.2
+reply-rate = 40.8
+session-rate = 40.8
+reply-rate = 40.0
+session-rate = 40.0
+reply-rate = 40.0
+session-rate = 40.0
+httperf --verbose --hog --timeout=60 --client=0/1 --server=127.0.0.1 --port=3000 --uri=/ --rate=45 --send-buffer=4096 --recv-buffer=16384 --ssl-protocol=auto --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1048576
+reply-rate = 44.8
+session-rate = 44.8
+reply-rate = 45.0
+session-rate = 45.0
+reply-rate = 39.6
+session-rate = 39.6
+reply-rate = 45.2
+session-rate = 45.2
+reply-rate = 47.2
+session-rate = 47.2
+httperf --verbose --hog --timeout=60 --client=0/1 --server=127.0.0.1 --port=3000 --uri=/ --rate=50 --send-buffer=4096 --recv-buffer=16384 --ssl-protocol=auto --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1048576
+reply-rate = 49.8
+session-rate = 49.8
+reply-rate = 45.8
+session-rate = 45.8
+reply-rate = 39.4
+session-rate = 39.4
+reply-rate = 46.4
+session-rate = 46.4
+reply-rate = 46.8
+session-rate = 46.8
+httperf --verbose --hog --timeout=60 --client=0/1 --server=127.0.0.1 --port=3000 --uri=/ --rate=55 --send-buffer=4096 --recv-buffer=16384 --ssl-protocol=auto --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1048576
+reply-rate = 27.8
+session-rate = 27.8
+reply-rate = 48.8
+session-rate = 48.8
+reply-rate = 46.0
+session-rate = 46.0
+reply-rate = 49.8
+session-rate = 49.8
+reply-rate = 45.8
+session-rate = 45.8
+reply-rate = 43.2
+session-rate = 43.2
+httperf --verbose --hog --timeout=60 --client=0/1 --server=127.0.0.1 --port=3000 --uri=/ --rate=60 --send-buffer=4096 --recv-buffer=16384 --ssl-protocol=auto --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1048576
+reply-rate = 0.0
+session-rate = 0.0
+reply-rate = 23.2
+session-rate = 23.2
+reply-rate = 47.4
+session-rate = 47.4
+reply-rate = 48.8
+session-rate = 48.8
+reply-rate = 49.2
+session-rate = 49.2
+httperf --verbose --hog --timeout=60 --client=0/1 --server=127.0.0.1 --port=3000 --uri=/ --rate=65 --send-buffer=4096 --recv-buffer=16384 --ssl-protocol=auto --wsesslog=10000000,0.000,urls.txt
+httperf: maximum number of open descriptors = 1048576
+reply-rate = 0.0
+session-rate = 0.0
+reply-rate = 0.0
+session-rate = 0.0
+^CMaximum connect burst length: 1
+
+Total: connections 874 requests 874 replies 0 test-duration 13.438 s
+
+Connection rate: 65.0 conn/s (15.4 ms/conn, <=874 concurrent connections)
+Connection time [ms]: min 0.0 avg 0.0 max 0.0 median 0.0 stddev 0.0
+Connection time [ms]: connect 0.1
+Connection length [replies/conn]: 0.000
+
+Request rate: 65.0 req/s (15.4 ms/req)
+Request size [B]: 71.0
+
+Reply rate [replies/s]: min 0.0 avg 0.0 max 0.0 stddev 0.0 (2 samples)
+Reply time [ms]: response 0.0 transfer 0.0
+Reply size [B]: header 0.0 content 0.0 footer 0.0 (total 0.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 13.18 system 0.25 (user 98.1% system 1.9% total 99.9%)
+Net I/O: 4.5 KB/s (0.0*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 0.00 max 0.00 stddev 0.00 (0/0)
+Session: avg 0.00 connections/session
+Session lifetime [s]: 0.0
+Session failtime [s]: 0.0
+Session length histogram: 0

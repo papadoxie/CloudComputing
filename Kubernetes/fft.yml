@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fft
+  labels:
+    app: fft
+    type: front-end
+spec:
+  template:
+    metadata:
+      name: fft-pod
+      labels:
+        app: fft
+        type: front-end
+    spec:
+      containers:
+        - name: fft
+          image: pucitcloudnet/fft
+          ports:
+            - name: fft-http
+              containerPort: 8000   
+          resources:
+            requests:
+              cpu: "100m"       
+  selector:
+    matchLabels:
+      type: front-end
