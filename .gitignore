@@ -149,6 +149,8 @@ dmypy.json
 # pytype static type analyzer
 .pytype/
 
+Hadoop/hadoop-3.3.6/*
+
 # Cython debug symbols
 cython_debug/
 
